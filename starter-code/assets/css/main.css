@@ -2044,7 +2044,7 @@ input, select, textarea {
 		width: 375px;
 	} */
 
-		#header .top {
+		/* #header .top {
 			-moz-flex-grow: 1;
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
@@ -2078,9 +2078,9 @@ input, select, textarea {
 
 				#header .icons a:hover {
 					color: #fff;
-				}
+				} */
 
-	#logo {
+	/* #logo {
 		position: relative;
 		margin: 1.75em 1.5em 1.5em 1.5em;
 		min-height: 48px;
@@ -2108,15 +2108,15 @@ input, select, textarea {
 			position: absolute;
 			left: 0;
 			top: 0;
-		}
+		} */
 
-	#nav ul {
+	/* #nav ul {
 		list-style: none;
 		padding-left: 0;
 		margin-bottom: 0;
-	}
+	} */
 
-		#nav ul li {
+		/* #nav ul li {
 			padding-left: 0;
 		}
 
@@ -2146,9 +2146,9 @@ input, select, textarea {
 						text-align: center;
 						width: 1.25em;
 						line-height: 1.75em;
-					}
+					} */
 
-				#nav ul li a.active {
+				/* #nav ul li a.active {
 					background: rgba(0, 0, 0, 0.15);
 					box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
 					color: #fff;
@@ -2156,11 +2156,11 @@ input, select, textarea {
 
 					#nav ul li a.active span:before {
 						color: #e27689;
-					}
+					} */
 
 /* Footer */
 
-	#footer {
+	/* #footer {
 		margin-left: 375px;
 		text-align: center;
 		background-color: #dce3e2;
@@ -2186,53 +2186,53 @@ input, select, textarea {
 					border-left: 0;
 					padding-left: 0;
 					margin-left: 0;
-				}
+				} */
 
 /* Main */
 
-	#main {
+	/* #main {
 		margin-left: 375px;
-	}
+	} */
 
-		#main > section {
+		/* #main > section {
 			margin: 0;
 			overflow: hidden;
 			padding: 4em 0;
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 			text-align: center;
 			background-image: url("images/overlay.png");
-		}
+		} */
 
-			#main > section.dark {
+			/* #main > section.dark {
 				color: #ddd;
 				color: rgba(255, 255, 255, 0.75);
-			}
+			} */
 
-				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
+				/* #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
 					color: inherit;
-				}
+				} */
 
-				#main > section.dark strong {
+				/* #main > section.dark strong {
 					color: #fff;
 					border-color: inherit;
-				}
+				} */
 
-				#main > section.dark a {
+				/* #main > section.dark a {
 					color: #fff;
 					border-color: inherit;
-				}
+				} */
 
-					#main > section.dark a:hover {
+					/* #main > section.dark a:hover {
 						border-bottom-color: rgba(255, 255, 255, 0);
-					}
+					} */
 
-			#main > section.cover {
+			/* #main > section.cover {
 				padding: 10em 0;
 				background-size: cover;
 				background-position: center center;
-			}
+			} */
 
-			#main > section.one {
+			/* #main > section.one {
 				background-color: #81918E;
 				background-image: url("../../images/banner.jpg");
 			}
@@ -2247,87 +2247,87 @@ input, select, textarea {
 
 			#main > section.four {
 				background-color: #e8edec;
-			}
+			} */
 
 /* Wide */
 
-	@media screen and (min-width: 961px) and (max-width: 1880px) {
+	/* @media screen and (min-width: 961px) and (max-width: 1880px) {
 
 		/* Basic */
 
-			body, input, textarea, select {
+			/* body, input, textarea, select {
 				font-size: 17pt;
-			}
+			} */
 
 		/* Header */
 
-			#header {
+			/* #header {
 				width: 300px;
-			}
+			} */
 
 		/* Footer */
 
-			#footer {
+			/* #footer {
 				margin-left: 300px;
-			}
+			} */
 
 		/* Main */
 
-			#main {
+			/* #main {
 				margin-left: 300px;
 			}
 
-	}
+	} */
 
 /* Normal */
 
-	@media screen and (min-width: 961px) and (max-width: 1620px) {
+	/* @media screen and (min-width: 961px) and (max-width: 1620px) { */
 
 		/* Main */
 
-			#main > section {
+			/* #main > section {
 				padding: 3em 0;
 			}
 
 			#main section.cover {
 				padding: 5em 0;
-			}
+			} */
 
-	}
+	/* } */
 
 /* Narrow */
 
-	@media screen and (min-width: 961px) and (max-width: 1320px) {
+	/* @media screen and (min-width: 961px) and (max-width: 1320px) { */
 
 		/* Basic */
 
-			body, input, textarea, select {
+			/* body, input, textarea, select {
 				font-size: 16pt;
-			}
+			} */
 
-			.container {
+			/* .container {
 				padding: 0 2em 0 2em;
-			}
+			} */
 
 		/* Icons */
 
-			ul.icons li a {
+			/* ul.icons li a {
 				width: 1.75em;
-			}
+			} */
 
 		/* Item */
 
-			.item {
+			/* .item {
 				margin-bottom: 20px;
-			}
+			} */
 
 		/* Header */
 
-			#header {
+			/* #header {
 				width: 20%;
-			}
+			} */
 
-			#logo .image {
+			/* #logo .image {
 				position: relative;
 				margin: 0 0 0.5em 0;
 			}
@@ -2346,27 +2346,27 @@ input, select, textarea {
 						left: 100%;
 						margin-left: -1.25em;
 						line-height: 2.25em;
-					}
+					} */
 
 		/* Footer */
 
-			#footer {
+			/* #footer {
 				margin-left: 20%;
-			}
+			} */
 
 		/* Main */
 
-			#main {
+			/* #main {
 				margin-left: 20%;
 			}
 
-	}
+	} */ 
 
 /* Narrower */
 
-	#headerToggle {
+	/* #headerToggle {
 		display: none;
-	}
+	} */
 
 	@media screen and (max-width: 960px) {
 
