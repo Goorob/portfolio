@@ -1,7 +1,4 @@
-a:hover {
-    color: #E27689;
-    border-bottom-color: rgba(255, 255, 255, 0);
-}
+
 @media screen and (min-width: 961px) and (max-width: 1880px) {
 
     .container {
@@ -1534,4 +1531,54 @@ a:hover {
                     margin: 0 auto;
                     width: auto;
                 }
-         
+                ul li {
+                    padding-left: 0.5em;
+                }
+                ol li {
+                    padding-left: 0.25em;
+                }
+                ul.icons {
+                    cursor: default;
+                    list-style: none;
+                    padding-left: 0;
+                }
+            
+                    ul.icons li {
+                        display: inline-block;
+                        padding-left: 0;
+                    }
+            
+                    ul.icons a {
+                        display: inline-block;
+                        width: 2em;
+                        height: 2em;
+                        line-height: 2em;
+                        text-align: center;
+                        border: 0;
+                    }                 
+                    
+		.item header {
+			background: #fff;
+			margin: 0;
+			padding: 1em 0 1em 0;
+			font-size: 0.8em;
+		}
+
+			.item header h3 {
+				font-size: 1em;
+            }
+            .icon:before {
+                display: inline-block;
+                font-family: FontAwesome;
+                font-size: 1.25em;
+                text-decoration: none;
+                font-style: normal;
+                font-weight: normal;
+                line-height: 1;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+    
+            .icon > .label {
+                display: none;
+            }
