@@ -284,3 +284,6 @@ form input[type="text"]:focus,
     #main > section.dark a:hover {
         border-bottom-color: rgba(255, 255, 255, 0);
     }
+    #headerToggle {
+        display: none;
+    }
